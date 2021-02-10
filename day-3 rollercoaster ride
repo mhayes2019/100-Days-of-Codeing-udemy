@@ -1,0 +1,12 @@
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+#checking to see if the users height is greater than or equal to 120 centimeters.
+
+#using the if statement to let the user know that if they are 120 cm or taller they can ride the rollercoaster
+if height >= 120:
+  print("Great, you are tall enough to ride")
+
+  #using the else statement to let the user know that because they are NOT 120 cm or taller then they cannot ride the rollercoaster
+else:
+    print("Sorry you are not tall enough to ride")
